@@ -1,0 +1,74 @@
+
+
+
+
+[
+    {
+        "type": "input",
+        "name": "name",
+        "placeholder": "Nombre",
+        "label": "Nombre",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "minLength",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "Apellido",
+        "label": "Apellido",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "Correo electrónico",
+        "label": "Correo electrónico",
+        "value": "",
+        "validations": [
+            {
+                "type": "required"
+            },
+            {
+                "type": "email"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "sexo",
+        "label": "Sexo",
+        "value": "",
+        "options": [
+            {
+                "id": 1,
+                "label": "Femenino"
+            },
+            {
+                "id": 2,
+                "label": "Masculino"
+            },
+            {
+                "id": 3,
+                "label": "Prefiero no decirlo"
+            }
+        ],
+        "validations": [
+            {
+                "type": "required"
+            }
+        ]
+    }
+]
